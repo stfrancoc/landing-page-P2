@@ -1,0 +1,26 @@
+.borde{
+    border: 1px solid;
+    border-color: black;
+}
+.txt{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.im1{
+    position: relative;
+    top: -45px;
+    left: -268px;
+}
+
+.im2{
+    position: relative;
+    top:-58px;
+    left:-45px
+}
+
+.pa1{
+    position: relative;
+    top: -30px;
+}
