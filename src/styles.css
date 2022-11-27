@@ -11,16 +11,65 @@
 .im1{
     position: relative;
     top: -45px;
-    left: -268px;
+    left: -253px;
 }
 
 .im2{
     position: relative;
     top:-58px;
-    left:-45px
+    left:-28px
 }
 
 .pa1{
     position: relative;
     top: -30px;
+    
+}
+
+.pa2{
+    width: 10px;
+    position: relative;
+    top:-50%;
+    left: 30%;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+.pa22{
+    width: 10px;
+    position: relative;
+    top:-50%;
+    left: 40%;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+.pa3{
+    width: 10px;
+    position: relative;
+    top:-50%;
+    left: 15%;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+.alto{
+    width: 100px;
+    height: 60px;
+}
+
+.altoB{
+    width: 50px;
+    height: 60px;
+}
+
+.car2{
+    position: relative;
+}
+
+.caru21{
+    margin-left: 100%;
 }

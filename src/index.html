@@ -9,7 +9,7 @@
 </head>
 <body class="h-screen">
 
-  <nav class="flex justify-around h-28 w-screen pt-10 fixed bg-white mt-0 top-0 mb-5">
+  <nav class="flex justify-around h-28 w-screen pt-10 fixed bg-white mt-0 top-0 mb-5 z-20">
     <a href="#" class="-translate-y-4"><img src="../resources/img/domance.png" alt="Domace SK"></a>
     <ul class="flex ">
         <li class="mr-8 hover:text-amber-700"><a href="#">inicio</a></li>
@@ -19,19 +19,59 @@
     </ul>
     <a href="#" class="flex w-24 h-10 px-5 pt-2 bg-amber-500 bg-opacity-5 text-amber-700 rounded-md hover:bg-amber-500 hover:bg-opacity-10 -translate-y-2"><i class="fa-solid fa-user-plus text-amber-700 mt-1 mr-1"></i> User</a>
   </nav>
+  <main >
+    <div class="flex flex-col justify-center items-center mt-36 h-72 mb-36">
+      <h2 class="txt">Los <span class="text-amber-700">mejores productos</span><br>a los mejores precios</h2>
+      <form action="#" class="flex mt-8 p-1 rounded-lg bg-slate-200">
+        <input type="text" placeholder="  que producto buscas?" class="bg-slate-200 p-5 pl-6 rounded-l-lg text-slate-500">
+        <select placeholder="  que categoria buscas" class="w-48 bg-slate-200 p-5 border-l-2 border-stone-100 rounded-r-lg text-slate-500">
+          <option value="value1">Value 1</option>
+          <option value="value2">Value 2</option>
+          <option value="value3">Value 3</option>
+        </select>
+        <button class="p-5 w-28 bg-amber-700 ml-1 rounded-lg hover:bg-amber-800"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+      </form>
+      <i class="fa-solid fa-igloo im1 text-slate-500 z-10"></i>
+      <i class="fa-regular fa-compass im2 text-slate-500 z-10"></i>
+      <p class="mt-0 text-slate-400 pa1 z-10">porque no hay mejor gusto si se hace con el corazon</p>
+      <div class="flex">
+        <div>
+          <img src="../resources/img/cafe-1.jpg" alt="cafe" class="alto rounded-lg opacity-50 mr-3 hover:opacity-100">
+          <p class="pa22">cafe</p>
+        </div>
+        <div>
+          <img src="../resources/img/limon-1.jpg" alt="limon" class="alto rounded-lg opacity-50 mr-3 hover:opacity-100">
+          <p class="pa2">limon</p>
+        </div>
+        <div>
+          <img src="../resources/img/papa-1.jpg" alt="papa" class="alto rounded-lg opacity-50 mr-3 hover:opacity-100">
+          <p class="pa2">papa</p>
+        </div>
+        <div>
+          <img src="../resources/img/sardina-1.jpg" alt="cafe" class="alto rounded-lg opacity-50 mr-3 hover:opacity-100">
+          <p class="pa3">sardina</p>
+        </div>
+        <div>
+          <img src="../resources/img/uvas-1.jpg" alt="limon" class="alto rounded-lg opacity-50 mr-3 hover:opacity-100">
+          <p class="pa2">uvas</p>
+        </div>
+        <div>
+          <img src="../resources/img/carne-1.jpg" alt="papa" class="alto rounded-lg opacity-50 mr-3 hover:opacity-100">
+          <p class="pa2">carne</p>
+        </div>
+        <button class="altoB bg-slate-400 rounded-lg opacity-20 hover:opacity-50"><i class="fa-solid fa-chevron-down"></i></button>
+      </div>
+    </div>
 
-  <div class="flex flex-col justify-center items-center mt-32 h-72">
-    <h2 class="txt">Los <span class="text-amber-700">mejores productos</span><br>a los mejores precios</h2>
-    <form action="#" class="flex mt-8 p-1 rounded-lg bg-slate-200">
-      <input type="text" placeholder="  que producto buscas?" class="bg-slate-200 p-5 rounded-l-lg">
-      <input type="text"placeholder="  que categoria buscas" class="bg-slate-200 p-5 border-l-2 border-stone-100 rounded-r-lg">
-      <button class="p-5 w-28 bg-amber-700 ml-1 rounded-lg hover:bg-amber-800"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
-    </form>
-    <i class="fa-solid fa-igloo im1 text-slate-500"></i>
-    <i class="fa-regular fa-compass im2 text-slate-500"></i>
-    <p class="mt-0 text-slate-400 pa1">porque no hay mejor gusto si se hace con el corazon</p>
-  </div>
+    <div class="flex justify-center overflow-x-auto flex-nowrap pl-56">
+      <img src="../resources/img/caru2-1.jpg" class="w-96 h-52 object-cover mr-10 car2 caru21" alt="img-1">
+      <img src="../resources/img/caru2-1.jpg" class="w-96 h-52 object-cover mr-10 car2" alt="img-1">
+      <img src="../resources/img/caru2-1.jpg" class="w-96 h-52 object-cover mr-10 car2" alt="img-1">
+      <img src="../resources/img/caru2-1.jpg" class="w-96 h-52 object-cover mr-10 car2" alt="img-1">
+      <img src="../resources/img/caru2-1.jpg" class="w-96 h-52 object-cover mr-10 car2" alt="img-1">
+    </div>
 
-  
+    
+  </main>
 </body>
 </html>
