@@ -6,6 +6,7 @@
   <link href="/dist/output.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/07a5b4dbbe.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles.css">
+  <script defer src="./index.js"></script>
 </head>
 <body class="h-screen">
 
@@ -64,10 +65,19 @@
       </div>
     </div>
 
-    <div class="flex overflow-x-auto mb-60">
-      <img src="../resources/img/caru1-1.jpg" alt="img1">
-      <img src="../resources/img/caru1-2.jpeg" alt="img1">
-      <img src="../resources/img/caru1-3.jpeg" alt="img1">
+    <div class="flex overflow-x-auto mb-60 caruc1 items-center h-96 overflow-y-hidden">
+      <div class="prev flex bg-slate-400/50 items-center justify-center">
+        <i class="fa-solid fa-arrow-left "></i>
+      </div>
+
+      <img src="../resources/img/caru1-1.jpg" alt="img1" class="h-96 object-fill">
+      <img src="../resources/img/caru1-2.jpeg" alt="img1" class="h-96 object-fill">
+      <img src="../resources/img/caru1-3.jpeg" alt="img1" class="h-96 object-fill">
+      
+      <div class="next flex bg-slate-400/50 items-center justify-center">
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      
     </div>
 
     <div class="caruc2 flex justify-center overflow-x-auto flex-nowrap mb-1 items-center">
@@ -93,5 +103,6 @@
     </div>
     
   </main>
+  
 </body>
 </html>
