@@ -9,7 +9,9 @@
   <script defer src="./index.js"></script>
 </head>
 <body class="h-screen">
-
+<!--
+  --------------------------------nav
+-->  
   <nav class="flex justify-around h-28 w-screen pt-10 fixed bg-white mt-0 top-0 mb-5 z-20">
     <a href="#" class="-translate-y-4"><img src="../resources/img/domance.png" alt="Domace SK"></a>
     <ul class="flex ">
@@ -20,8 +22,14 @@
     </ul>
     <a href="#" class="flex w-24 h-10 px-5 pt-2 bg-amber-500 bg-opacity-5 text-amber-700 rounded-md hover:bg-amber-500 hover:bg-opacity-10 -translate-y-2"><i class="fa-solid fa-user-plus text-amber-700 mt-1 mr-1"></i> User</a>
   </nav>
-  
+<!--
+  --------------------------------nav
+-->    
+
   <main >
+<!--
+  --------------------------------primera seccion
+-->      
     <div class="flex flex-col justify-center items-center mt-36 h-72 mb-36">
       <h2 class="txt">Los <span class="text-amber-700">mejores productos</span><br>a los mejores precios</h2>
       <form action="#" class="flex mt-8 p-1 rounded-lg bg-slate-200">
@@ -64,9 +72,14 @@
         <button class="altoB bg-slate-400 rounded-lg opacity-20 hover:opacity-50"><i class="fa-solid fa-chevron-down"></i></button>
       </div>
     </div>
+<!--
+  --------------------------------primera seccion
+-->  
 
-
-    <div class="flex overflow-x-auto mb-60 caruc1 items-center h-96 overflow-y-hidden">
+<!--
+  --------------------------------carrucel 1
+-->  
+    <div class="flex overflow-x-auto mb-20 caruc1 items-center h-96 overflow-y-hidden">
 
       <div class="prev flex bg-slate-800/60 items-center justify-center cursor-pointer">
         <i class="fa-solid fa-arrow-left text-white"></i>
@@ -126,6 +139,479 @@
       </div>
       
     </div>
+<!--
+  --------------------------------carrucel 1
+-->  
+
+<!--
+  --------------------------------productos
+--> 
+  <div class="flex flex-col mx-40 mb-10">
+    <div class="flex justify-start mb-5 items-center">
+      <p class="font-extrabold text-xl ml-2 mr-16">Productos</p>
+      <ul class="flex">
+        <li class="mr-8 hover:text-amber-700 font-bold"><a href="#">frutas</a></li>
+        <li class="mr-8 hover:text-amber-700 font-bold"><a href="#">comidas</a></li>
+        <li class="mr-8 hover:text-amber-700 font-bold"><a href="#">carnes</a></li>
+        <li class="mr-8 hover:text-amber-700 font-bold"><a href="#">postres</a></li>
+    </ul>
+    </div>
+
+    <div class="grid grid-cols-4 grid-rows-2 justify-items-center">
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <button class="w-full bg-slate-400 bg-opacity-40 h-10 text-slate-600 rounded-lg hover:bg-opacity-70">Mas productos</button>
+    </div>
+  </div>
+
+<!--
+  --------------------------------productos -grid
+     <div class="grid grid-cols-4 grid-rows-2 mb-10 justify-items-center mx-40">
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+          <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+          <div class="flex mt-3 mb-3 justify-around items-center">
+            <p class="font-bold text-xl">el mejor cafe</p>
+            <div class="flex flex-col">
+              <div class="flex items-center">
+                <p class="font-bold mr-1 text-amber-700">10.500</p>
+                <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+              </div>
+              <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+            </div>
+          </div>
+          <hr class="border-slate-400">
+          <div class="flex justify-between mb-1 mr-2 mt-1">
+            <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+            <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+          <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+          <p class="font-bold text-white texCarPun">4,5</p>
+        </div>
+      </div>
+    </div>
+-->  
+
+<!--
+  --------------------------------cards 
+    <div>
+      <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
+        <img src="../resources/img/productos-1.jpeg" alt="producto1" class="prodImg">
+        <div class="flex mt-3 mb-3 justify-around items-center">
+          <p class="font-bold text-xl">el mejor cafe</p>
+          <div class="flex flex-col">
+            <div class="flex items-center">
+              <p class="font-bold mr-1 text-amber-700">10.500</p>
+              <i class="fa-solid fa-dollar-sign font-bold text-amber-700"></i>
+            </div>
+            <p class="font-extralight text-sm text-slate-600">cont 100g</p>
+          </div>
+        </div>
+        <hr class="border-slate-400">
+        <div class="flex justify-between mb-1 mr-2 mt-1">
+          <p class="ml-4 font-extralight text-sm text-slate-600">añade</p>
+          <button class="bg-amber-500 bg-opacity-20 w-12 rounded-md hover:bg-opacity-40"><i class="fa-solid fa-basket-shopping text-amber-700"></i></button>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center w-11 h-5 bg-yellow-400 rounded-full punt">
+        <i class="fa-solid fa-star text-white mr-1 font-thin texCarPun"></i>
+        <p class="font-bold text-white texCarPun">4,5</p>
+      </div>
+    </div>
 
     <div class="mb-11">
       <div class="flex flex-col w-60 bg-slate-200 rounded-lg">
@@ -152,9 +638,17 @@
         <p class="font-bold text-white texCarPun">4,5</p>
       </div>
     </div>
-    
+  --------------------------------cards 
+-->     
+
+<!--
+  --------------------------------productos
+--> 
 
 
+<!--
+  --------------------------------carrucel 2
+-->  
     <div class="caruc2 flex justify-center overflow-x-auto flex-nowrap mb-1 items-center">
       <div class="datos1 text-white">
         <p class="flex justify-center items-center mb-3 font-light w-20 h-5 bg-slate-300/50 rounded-full">calidad</p>
@@ -176,7 +670,9 @@
       <img src="../resources/img/caru2-2.jpg" class="altoC2 object-cover mr-5 car2 rounded-lg opacity-80 hover:opacity-100" alt="img-2">
       <img src="../resources/img/caru2-3.jpg" class="altoC2 object-cover car2 rounded-lg opacity-80 hover:opacity-100" alt="img-3">
     </div>
-
+<!--
+  --------------------------------carrucel 2
+-->  
     
   </main>
   
