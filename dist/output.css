@@ -609,24 +609,12 @@ video {
   height: 18rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-96 {
   height: 24rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
-.h-52 {
-  height: 13rem;
+.h-5 {
+  height: 1.25rem;
 }
 
 .w-screen {
@@ -751,6 +739,10 @@ video {
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
+.bg-slate-400\/50 {
+  background-color: rgb(148 163 184 / 0.5);
+}
+
 .bg-slate-300\/50 {
   background-color: rgb(203 213 225 / 0.5);
 }
@@ -760,27 +752,20 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+.bg-slate-800\/50 {
+  background-color: rgb(30 41 59 / 0.5);
 }
 
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+.bg-slate-800\/40 {
+  background-color: rgb(30 41 59 / 0.4);
 }
 
-.bg-slate-400\/50 {
-  background-color: rgb(148 163 184 / 0.5);
+.bg-slate-800\/60 {
+  background-color: rgb(30 41 59 / 0.6);
 }
 
 .bg-opacity-5 {
   --tw-bg-opacity: 0.05;
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .object-cover {
