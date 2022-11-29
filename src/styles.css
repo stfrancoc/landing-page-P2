@@ -81,18 +81,21 @@
 
 .caruc1::-webkit-scrollbar{
     background: white;
+    height: 0;
 }
 
 .prev{
     position: absolute;
-    height: 366px;
+    z-index: 5;
+    height: 384px;
     width: 20px;
 }
 
 .next{
     position: absolute;
+    z-index: 5;
     right: 0;
-    height: 366px;
+    height: 384px;
     width: 20px;
 }
 
@@ -136,4 +139,37 @@
     width: 40px;
     font-weight: 900;
     font-size: 1em;
+}
+
+.inCaru1{
+    position: relative;
+    z-index: 4;
+    left: -1700px;
+    top: 50px;
+}
+
+.inCartxt{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.incartx{
+    position: relative;
+    font-size: 0.7em;
+    font-weight: 700;
+    top: -10px;
+}
+
+.inCaru2{
+    position: relative;
+    z-index: 4;
+    left: -1200px;
+    top: 50px;
+}
+
+.inCaru3{
+    position: relative;
+    z-index: 4;
+    left: -700px;
+    top: 50px;
 }
