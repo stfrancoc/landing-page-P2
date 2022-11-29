@@ -183,6 +183,11 @@
 
 .punt{
     position: relative;
-    top: -255px;
-    left: 5px;
+    top: -250px;
+    left: 10px;
 }
+
+.texCarPun{
+    font-size: 0.65rem;
+}
+
