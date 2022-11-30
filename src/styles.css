@@ -101,14 +101,13 @@
 
 .caruc2::-webkit-scrollbar{
     margin-top: 10;
-    padding: 5px;
     height: 0.8rem;
-    border-radius: 100vh;
 }
 
 .caruc2::-webkit-scrollbar-thumb{
     background:rgba(180,83,9,0.3);
     border-radius: 100vh;
+    height: 0.5rem;
 }
 
 .caruc2::-webkit-scrollbar-thumb:hover{
