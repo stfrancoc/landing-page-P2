@@ -191,3 +191,28 @@
     font-size: 0.65rem;
 }
 
+.infCar2{
+    position: relative;
+    top:-80px;
+    left: 10px;
+}
+
+.infLoc{
+    font-size: 0.6rem;
+}
+
+.tamI{
+    font-size: 0.5rem;
+}
+
+.posImg{
+    position: relative;
+    top:-125px;
+    left: 230px;
+}
+
+.new{
+    position: relative;
+    top: -300px;
+    left: 10px;
+}
